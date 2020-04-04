@@ -1,10 +1,10 @@
 # Init-container-assignment
                                   
-                                  Init containers
+                                PIAIC-Faisalabad-Kubernetes-Assignment-02
 
 Preview:
 --------
-At times you may want to do some pre-work for a container before starting it. That pre-work could be done by another container, which would do it's thing and exit before the main container starts. One example could be that you want to serve some static website content which exists as a git hub repository. So you would want something to pull that static content and provide it to the web server. This is called init-container.
+At times you may want to do some pre-work for a container before starting it. That pre-work could be done by another container, which would do its thing and exit before the main container starts. One example could be that you want to serve some static website content which exists as a git hub repository. So you would want something to pull that static content and provide it to the web server. This is called init-container.
 
 Task:
 -----
