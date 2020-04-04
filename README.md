@@ -10,9 +10,11 @@ Task:
 -----
 You are required to make a multicontainer pod (initcontainer & nginx) in which one container will pull the static content and other will serve that content.Init-container will pull the static website content from GitHub. The website exists as git repository at https://github.com/Cryptic-Gemini/Init-container-assignment.git, we want to serve it through the nginx service.
 
-==> Paste your yaml file.
+Note: Its just for practice .
 
-==> Upload Pod running status - Terminal Screenshot .
+==> Make your yaml file.
 
-==> Upload the screenshot of Application running at port 7000. 
+==> See your Pod in running status
+
+==> Make your Application running at port 7000. 
     (kubectl port-forward pod-name 7000:80)
