@@ -15,3 +15,4 @@ You are required to make a multicontainer pod (initcontainer & nginx) in which o
 ==> Upload Pod running status - Terminal Screenshot .
 
 ==> Upload the screenshot of Application running at port 7000. 
+    (kubectl port-forward <pod-name> 7000:80)
